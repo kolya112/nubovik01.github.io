@@ -19,7 +19,7 @@
   color: var(--font-color);
 }
 
-.btn {
+.btn { /* Ультра-современные кнопки */
   --primary-color: #302ae6;
   --secondary-color: #536390;
   --font-color: #000000;
@@ -28,7 +28,7 @@
   background-color: var(--bg-color);
 }
 
-.footer {
+.footer { /* Футер */
   --primary-color: #302ae6;
   --secondary-color: #536390;
   --font-color: #000000;
