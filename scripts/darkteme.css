@@ -34,7 +34,7 @@
   --font-color: #000000;
   --bg-color: #ffffff;
   --heading-color: #111111;
-  background-color: rgb(32, 39, 41);
+  background-color: (--bg-color);
   color: var(--font-color);
 }
 
