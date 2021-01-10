@@ -17,7 +17,7 @@
     text-align: left;
     font-weight: bold;
     background: linear-gradient(145deg, #3595ff, #007cff);
-    box-shadow: inset 5px 9px 23px #1900ff, inset -5px -9px 23px #00c3ff;
+    box-shadow: 5px 2px 13px #1900ff, -1px -3px 13px #00c3ff;
     cursor: auto;
     border: 0;
     outline: 0;
