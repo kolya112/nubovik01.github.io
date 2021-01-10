@@ -8,6 +8,24 @@
     padding-left: 4px;
 }
 
+/* Стилъ для блоков с текстом, она оченъ похожа на обычную кнопку, но это не кнопка. */
+/* Пример: <button class="textbox_blue">Текст</button> */
+.textbox {
+    padding: .5rem 1rem;
+    border-radius: 13px;
+    color: white;
+    text-align: left;
+    font-weight: bold;
+    background: linear-gradient(145deg, #3595ff, #007cff);
+    box-shadow: inset 5px 9px 23px #1900ff, inset -5px -9px 23px #00c3ff;
+    cursor: auto;
+    border: 0;
+    outline: 0;
+    -webkit-transition: transform 0.2s ease-in-out;
+    -moz-transition: transform 0.2s ease-in-out;
+    transition: transform 0.2s ease-in-out;
+}
+
 /* div справа */
 .right_div {
     height: 0px;
@@ -16,10 +34,6 @@
 }
 
 /***** form.css *****/
-
-html {
-    background: #ddd url(/files/pictures/fon.png) center no-repeat;
-}
 
 select,
 button,
