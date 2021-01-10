@@ -1,18 +1,18 @@
-<!DOCTYPE html>
-<html>
+<!DOCTYPE HTML>
+<!-- Сайт создан Нубовиком • 2020-2020 год -->
+<html lang="ru">
 
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
-    <title>Ссылки > Сайт Нубовика</title>
-    <link rel="shortcut icon" href="/files/pictures/favicon.png" type="image/png" />
+    <title>Группа ВКонтакте > Сайт Нубовика</title>
+    <link rel="shortcut icon" href="/files/pictures/favicon.png" type="image/png"/>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="stylesheet" href="/files/css/alerts.css">
     <link rel="stylesheet" href="/files/css/blocks.css">
     <link rel="stylesheet" href="/files/css/buttons.css">
-    <link rel="stylesheet" href="/files/css/other.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato&family=Montserrat&family=Open+Sans&family=Oswald&family=Roboto&display=swap">
-    <meta name="description" content="Ссылки > Сайт Нубовика">
+    <meta name="description" content="Группа Нубовика во ВКонтакте > Сайт Нубовика">
 
     <script>
         console.log("%c- Hello, There!", "font-size:25px;");
@@ -38,36 +38,13 @@
     <!-- /Yandex.Metrika counter -->
 </head>
 
-<body>
-
-    <div class="navbar">
-        <div class="container">
-            <div class="navbar-wrapper">
-                <div class="nav-left">
-                    <a class="nav-brand" href="/"><img src="/files/pictures/favicon.png" height="21"> Nubovik</a>
-                </div>
-
-                <div class="nav-center"></div>
-
-                <div class="nav-right">
-                    <ul class="navbar-menu">
-                        <li class="nav-li">
-                            <a class="nav-link" href="/">Главная</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-
-            <div>
-                <br><br><br><br><br><br>
-                <center><a href="/badbrowser.html"><font color="white">.</font></a></center>
-                <a href="/c/discord/" class="btn">Дискорд-сервер</a><br><br>
-                <a href="/c/vkgroup" class="btn">Группа ВКонтакте</a><br><br>
-                <a href="/c/flameout" class="btn">FlameOut</a>
-            </div>
-        </div>
-    </div>
-
-</body>
+<p id="teleport">Перенаправление...</p>
+<meta http-equiv="refresh" content="0; URL=http://vk.com/nubovik02">
+<script>
+    function teleportMsg() {
+        document.getElementById('teleport').innerHTML = `<a href="http://vk.com/nubovik02" class="btn">Нажмите сюда если вас не перенаправило</a>`
+    }
+    setInterval(teleportMsg, 0);
+</script>
 
 </html>
