@@ -1,7 +1,24 @@
+/* Футер */
+.footer {
+    bottom: 0;
+    left: 0;
+    background: #fafafa;
+    border-radius: 0 0 4px 4px;
+    font-size: 12px;
+    padding-left: 4px;
+}
+
+/* div справа */
+.right_div {
+    height: 0px;
+    width: 0px;
+    margin: 0 0 0 59%;
+}
+
 /***** form.css *****/
 
 html {
-    background: #ddd url(/files/fon.png) center no-repeat;
+    background: #ddd url(/files/pictures/fon.png) center no-repeat;
 }
 
 select,
@@ -1603,10 +1620,4 @@ h6,
 
 .m-auto-i {
     margin: auto !important;
-}
-
-.right_div {
-    height: 0px;
-    width: 0px;
-    margin: 0 0 0 59%;
 }
