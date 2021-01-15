@@ -75,7 +75,13 @@ function draw(){
         
         if( bX + bird.width >= pipe[i].x && bX <= pipe[i].x + pipeNorth.width && (bY <= pipe[i].y + pipeNorth.height || bY+bird.height >= pipe[i].y+constant) || bY + bird.height >=  cvs.height - 0){
             if( game_godmode != 1) {
-                location.reload(); // reload the page
+                ctx.fillStyle = "red";
+                ctx.font = "15px Verdana";
+                ctx.fillText("Вы проиграли, страница перезагрузится через 5 сек.",10,cvs.height-475);
+
+                setTimeout(() => {
+                    location.reload(); // reload the page
+                }, 5000);
             }
         }
         
@@ -84,7 +90,6 @@ function draw(){
             console.log(`Игровых очков: ${game_score}`)
             scor.play();
         }
-        
         
     }
     
