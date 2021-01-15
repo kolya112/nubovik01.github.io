@@ -94,7 +94,7 @@ function draw(){
     
     ctx.fillStyle = "#ffffff";
     ctx.font = "15px Verdana";
-    ctx.fillText("Нажимайте на SPACE / Очки: "+game_score,10,cvs.height-490);
+    ctx.fillText("Нажимайте на SPACE / ОБТ / Очки: "+game_score,10,cvs.height-490);
     
     requestAnimationFrame(draw);
     
