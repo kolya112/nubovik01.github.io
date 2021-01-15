@@ -42,10 +42,6 @@ function moveDown(){
     sound.play();
 }
 
-setInterval(() => {
-    document.getElementById("info").innerHTML=`Музыка: <a href="https://youtu.be/9KsRNfX-62g">https://youtu.be/9KsRNfX-62g</a>`;
-}, 150);
-
 // pipe coordinates
 var pipe = [];
 
